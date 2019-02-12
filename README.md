@@ -1,8 +1,28 @@
-## 1. 目录
+## 1. 起步
+
+```shell
+git clone https://github.com/HsyangG/crud-express.git
+
+npm install
+
+```
+## 2. 启动数据库服务
+数据库是 MongoDB
+```shell
+mongod
+
+mongo
+```
+## 3. 开启服务器
+```shell
+cd 项目所在文件目录
+
+node app.js
+```
 
 
 
-## 2. 模板页
+## 4. 模板页
 
 - 子模板 https://aui.github.io/art-template/zh-cn/docs/syntax.html#%E5%AD%90%E6%A8%A1%E6%9D%BF
 
@@ -21,11 +41,11 @@
 |           |      |          |                           |              |              |
 |           |      |          |                           |              |              |
 
-## 4. 模型设计
+## 5. 模型设计
 
-## 5. 功能实现
+## 6. 功能实现
 
-## 6. 书写步骤
+## 7. 书写步骤
 
 - 创建目录结构
 - 整合静态页-模板页
