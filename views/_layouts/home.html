@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ block 'title' }}BLOG{{ /block }}</title>
+    <link rel="stylesheet" href="/public/css/bootstrap.css">
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
+    {{ block 'head' }}{{ /block }}
+</head>
+<body>
+{{ include '../_partials/header.html' }}
+{{ block 'body' }}{{ /block }}
+{{ include '../_partials/footer.html' }}
+<script src="/node_modules/jquery/dist/jquery.js"></script>
+<script src="/public/js/bootstrap.js"></script>
+{{ block 'script' }}{{ /block }}
+</body>
+</html>
